@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/Word",
+    path: "/Word/:word",
     element: <Word></Word>,
   },
 ]);

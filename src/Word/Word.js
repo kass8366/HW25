@@ -3,7 +3,7 @@ import data from '../data.json'
 
 function Word({name}) {
     return (
-        <div className="">fgf</div>
+        <div  className={Styled['container']}>{decodeURI(window.location.pathname.split('/')[2])}</div>
     )
 };
 

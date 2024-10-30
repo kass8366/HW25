@@ -8,7 +8,7 @@ export function Home() {
         <div className={Styled['container']}>
             {data.map(function(elem) {
                 return (
-                        <Link to="/Word" name={elem}>
+                        <Link to={`/Word/${elem}`} name={elem}>
                             <button  className={Styled['container__button']}> 
                                 {elem}
                             </button> 
